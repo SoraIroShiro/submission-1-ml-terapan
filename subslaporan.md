@@ -47,7 +47,7 @@ Jumlah data untuk Jakarta: lebih dari 9.000 baris (setiap baris = 1 hari).
 **EDA singkat:**  
 Visualisasi tren suhu, distribusi suhu, dan statistik deskriptif dilakukan untuk memahami pola musiman dan outlier pada data.
 
-![Visualisasi Prediksi vs Aktual](https://raw.githubusercontent.com/SoraIroShiro/submission-1-ml-terapan/0a5794865d7d0d31a355f2bf190559089add7219/prediksivsactual.png)
+![Visualisasi tren suhu](https://raw.githubusercontent.com/SoraIroShiro/submission-1-ml-terapan/refs/heads/main/trend.png)
 
 ---
 
