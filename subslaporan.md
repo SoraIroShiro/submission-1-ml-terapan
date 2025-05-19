@@ -47,6 +47,8 @@ Jumlah data untuk Jakarta: lebih dari 9.000 baris (setiap baris = 1 hari).
 **EDA singkat:**  
 Visualisasi tren suhu, distribusi suhu, dan statistik deskriptif dilakukan untuk memahami pola musiman dan outlier pada data.
 
+![Visualisasi Prediksi vs Aktual](https://raw.githubusercontent.com/SoraIroShiro/submission-1-ml-terapan/0a5794865d7d0d31a355f2bf190559089add7219/prediksivsactual.png)
+
 ---
 
 ## Data Preparation
@@ -97,7 +99,7 @@ rmse_ml = np.sqrt(mean_squared_error(y_test, y_pred))
 
 Visualisasi prediksi vs aktual menunjukkan model mampu mengikuti pola suhu harian dengan baik.
 
-![Visualisasi Prediksi vs Aktual](https://raw.githubusercontent.com/username/repo/main/visualisasi_prediksi.png)
+![Visualisasi Prediksi vs Aktual](https://raw.githubusercontent.com/SoraIroShiro/submission-1-ml-terapan/0a5794865d7d0d31a355f2bf190559089add7219/prediksivsactual.png)
 
 **Feature Importance:**  
 Fitur rolling mean 7 hari paling berpengaruh, diikuti oleh bulan dan hari dalam minggu.
